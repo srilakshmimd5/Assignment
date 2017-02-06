@@ -26,6 +26,7 @@ body {
 /*class header */
 .header {
 background-color: #9DC41D;
+background: linear-gradient(#9DC41D, #9DC473);
 }
 
 /*Offer Header*/
@@ -89,6 +90,7 @@ padding: 13px 0px 0px 16px;
 /*Entire Banner*/
 .banner{
 background-color: #493829;
+background: linear-gradient(#7D5936, #493829);
 /*#36260B*/
 height: 408px;
 width: 100%;
@@ -126,6 +128,7 @@ width: 100%;
 /*highlight panels*/
 .highlight {
   background-color: #68422C;
+  background: linear-gradient(#8E6145, #68422C);
   width: 819px;
   height: 222px;
   border-radius: 15px;
@@ -168,6 +171,7 @@ position: absolute;
 /*Content main*/
 .content{
 background-color: #816C5B;
+background: linear-gradient(#816C5B, #928983);
 height: 375px;
 }
 /*alignment of content 1 and 2*/
@@ -194,6 +198,7 @@ height: 100px;
 /*Email box within Content 2*/
 #inner-box {
   background-color: #493829;
+  background: linear-gradient(rgba(94, 32, 16, 0.45), #493829);
   width: 280px;
   height: 110px;
   margin-top: 30px;
