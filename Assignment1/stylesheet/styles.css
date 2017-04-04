@@ -270,3 +270,57 @@ box-shadow: 1px 1px #A52A2A
   float: left;
   box-shadow: 1px 1px #AD9170;
 }
+
+/*JavaScript Related Styles*/
+/*Take count*/
+.allignJs{
+  box-sizing: border-box;
+  /*height update*/
+  margin-top: -40px;
+}
+
+.mySlides{
+  display: none;
+}
+/*Dots under Images*/
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/*Arrows for each images*/
+.prev, .next {
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 155px;
+}
+.next{
+  /*left:85%;*/
+  left: 16%;
+}
+/*Extra added*/
+.prev{
+  right: 69%;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.mySlides img{
+  width:89%;
+  /*height: 225px;*/
+  height: 275px;
+}
+
+.dots{
+  margin-right: 65px;
+}
